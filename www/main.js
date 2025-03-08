@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   $(".text").textillate({
     loop: true,
     sync: true,
@@ -39,5 +40,6 @@ $(document).ready(function () {
     eel.playassistantsound()
     $("#Oval").attr("hidden", true);
     $("#SiriWave").attr("hidden", false);
+    eel.takecommand()()
   });
 });
